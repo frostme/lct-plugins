@@ -1,0 +1,5 @@
+# alacritty Plugin Configuration
+# Add your plugin configuration options here.
+name: alacritty
+version: 0.2.0
+filename: main.sh

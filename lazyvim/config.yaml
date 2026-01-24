@@ -1,0 +1,5 @@
+# lazyvim Plugin Configuration
+# Add your plugin configuration options here.
+name: lazyvim
+version: 0.2.0
+filename: main.sh
