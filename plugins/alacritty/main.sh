@@ -1,8 +1,9 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
 TMP_DIR=$(mktemp -d)
 # INSTALL alacritty
-if [ -d "/Applications/Alacritty.app" ]; then
-  echo "✅ alacritty already installed"
-else
+if [ ! -d "/Applications/Alacritty.app" ]; then
   echo "installing alacritty"
   git clone git@github.com:alacritty/alacritty.git $TMP_DIR/alacritty
   cd $TMP_DIR/alacritty
