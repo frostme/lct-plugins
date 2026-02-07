@@ -1,0 +1,3 @@
+other:
+  lazyvim/lua: .config/nvim/lua
+  lazyvim/lazyvim.json: .config/nvim/lazyvim.json
