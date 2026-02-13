@@ -17,12 +17,12 @@ In your lct config.yaml, reference the plugins by their directory paths under pl
 
 ```
 plugins:
-  - plugins/alacritty
-  - plugins/jrnl
-  - plugins/lazyvim
-  - plugins/mise
-  - plugins/ohmyzsh
-  - plugins/powerlevel10k
+  - frostme/lct-plugins.alacritty
+  - frostme/lct-plugins.jrnl
+  - frostme/lct-plugins.lazyvim
+  - frostme/lct-plugins.mise
+  - frostme/lct-plugins.ohmyzsh
+  - frostme/lct-plugins.powerlevel10k
 ```
 
 Each plugin contains its own config.yaml (if needed) and a README with installation and usage details.
