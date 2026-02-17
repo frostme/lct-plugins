@@ -1,4 +1,4 @@
 configs:
   - jrnl
 other:
-  work/share/jrnl: ~/.local/share/jrnl
+  work/share/jrnl: .local/share/jrnl
