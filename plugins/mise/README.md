@@ -1,4 +1,5 @@
 # mise Plugin for LCT
-#
-# Describe the purpose and functionality of the plugin here.
-Install the mise plugin and configure it as needed.
+
+This plugin installs `mise`, a development tool manager for runtimes and CLI dependencies.
+
+It adds the Zsh activation snippet to `~/.zshrc` and runs `mise install` so declared tools are available immediately after setup.

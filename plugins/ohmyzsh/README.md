@@ -1,4 +1,5 @@
 # ohmyzsh Plugin for LCT
-#
-# Describe the purpose and functionality of the plugin here.
-Install the ohmyzsh plugin and configure it as needed.
+
+This plugin installs Oh My Zsh and augments it with a small set of quality-of-life plugins.
+
+In addition to the base framework, it installs `zsh-completions`, `zsh-syntax-highlighting`, and `zsh-autosuggestions` to improve shell completion, feedback, and interactive command entry.

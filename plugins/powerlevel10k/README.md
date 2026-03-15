@@ -1,4 +1,5 @@
 # powerlevel10k Plugin for LCT
-#
-# Describe the purpose and functionality of the plugin here.
-Install the powerlevel10k plugin and configure it as needed.
+
+This plugin installs the Powerlevel10k theme into an Oh My Zsh custom themes directory.
+
+It is intended to pair with the `ohmyzsh` plugin and gives the shell a fast, highly configurable prompt, while allowing the user's `~/.p10k.zsh` configuration to be tracked separately.

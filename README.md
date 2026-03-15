@@ -5,6 +5,7 @@ A central hub for LCT plugin definitions. This directory contains a collection o
 ## Plugins
 
 - [Alacritty](plugins/alacritty/README.md): Terminal emulator plugin for macOS. Installs and configures Alacritty; see the plugin README for details.
+- [GitHub](plugins/github/README.md): Installs GitHub CLI, walks through `gh auth login`, and helps match or create an SSH key for GitHub access.
 - [jrnl](plugins/jrnl/README.md): Lightweight journaling CLI tool. Installs via pip and provides a simple journaling interface; see the plugin README for details.
 - [LazyVim](plugins/lazyvim/README.md): Bootstrap Neovim configuration with LazyVim starter; see the plugin README for details.
 - [mise](plugins/mise/README.md): Command-line tooling (mise); see the plugin README for details.
@@ -18,6 +19,7 @@ In your lct config.yaml, reference the plugins by their directory paths under pl
 ```
 plugins:
   - frostme/lct-plugins.alacritty
+  - frostme/lct-plugins.github
   - frostme/lct-plugins.jrnl
   - frostme/lct-plugins.lazyvim
   - frostme/lct-plugins.mise

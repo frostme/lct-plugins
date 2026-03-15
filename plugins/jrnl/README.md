@@ -1,4 +1,5 @@
 # jrnl Plugin for LCT
-#
-# Describe the purpose and functionality of the plugin here.
-Install the jrnl plugin and configure it as needed.
+
+This plugin installs the `jrnl` command-line journaling tool with `pipx`.
+
+It is intended for lightweight personal notes and journal entries, while also preserving the local jrnl data directory declared in the plugin config.
