@@ -90,7 +90,7 @@ matching_local_key_for_github_key() {
 
   while IFS= read -r pub_file; do
     [[ -n "$pub_file" ]] || continue
-    if [[ "$(tr -d '\n' <"$pub_file")" == "$github_key" ]]; then
+    if [[ "$(tr -d '\n' <"$pub_file" | awk '{NF--; print}')" == "$github_key" ]]; then
       printf '%s\n' "$pub_file"
       return 0
     fi
